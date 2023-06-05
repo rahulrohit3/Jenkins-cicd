@@ -1,12 +1,12 @@
 parameters:
 - name: image
-  displayName: Pool Image
+  displayName: Enviornment
   type: string
-  default: ubuntu-latest
+  default: Preprod
   values:
-  - windows-latest
-  - ubuntu-latest
-  - macOS-latest
+  - QA
+  - Preprod
+  - UAT
 
 trigger: none
 
